@@ -20,23 +20,29 @@ banner {
     background-color: #FDA9D3;
 }
 
+
 h1 {
     margin-bottom: 50px;
     font-size: 35px;
     width: 140px;
 }
 
+.menu banner {
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-flex;
+    align-content: center;  
+}
+
 ul {
     padding: 20px;
     list-style-type: circle;
-}
-
-h2 {
-    display: inline-block;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: left;
 }
 
 #abt {
@@ -52,6 +58,14 @@ h2 {
     text-align: left;
     background-color: #FDA9D3;  
     }
+
+h2 {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
 
 #villzies {
     display: left;
